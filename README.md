@@ -4,6 +4,8 @@
 
 **Lottie** - это движок от *Airbnb*, который позволяет проигрывать анимации на основе json, созданного с помощью *Bodymovin*. Кроме веб-плеера есть также плееры для React-native, ios и android.
 
+И сразу [примеры](https://codepen.io/collection/nVYWZR/), чтобы было понятно, о чем речь.
+
 ## Установка
 
 AE можно найти на известном трекере (брал сборку от m0nkrus).
@@ -27,10 +29,6 @@ AE можно найти на известном трекере (брал сбо
 На этапе анимирования и экспорта в json получившийся json может содержать `encoded expressions`, из-за которых ничего не заработает ([issue](https://github.com/airbnb/lottie-web/issues/672)). По этой причине [Animation Composer](https://aescripts.com/animation-composer/) не совместим с Bodymovin (генерирует "плохой" json).
 
 ![encoded-expressions](/assets/encoded-expressions.png)
-
-## Примеры
-
-Тут будет пример, как создать туду лист с помощью AE, Bodymovin и Lottie, ну или что-то типа того...
 
 ## Полезные ссылки
 
