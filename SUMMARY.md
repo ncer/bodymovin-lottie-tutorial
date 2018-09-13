@@ -1,6 +1,6 @@
 # Summary
 
 * [Введение](README.md)
-* [Предподготовка](predpodgotovka.md)
+* [Подготовительный этап](podgotovitelnii-etap.md)
 * [Этапы работы в After Effects](etapi-raboti-v-after-effects.md)
 
