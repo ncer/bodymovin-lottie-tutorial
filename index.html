@@ -1,1 +1,83 @@
-<h1>This is Index</h1>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bodymovin & Lottie Animation</title>
+	<link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+<header class="header">
+	<div class="header__options">
+		<div class="nav-item input-group _loop">
+			<div class="input-group-prepend">
+				<div class="input-group-text">
+					<input type="checkbox" id="loop" class="js-loop">
+				</div>
+			</div>
+			<div class="input-group-append">
+				<label class="input-group-text btn" for="loop">Зацикливание</label>
+			</div>
+		</div>
+		<div class="nav-item input-group _reverse">
+			<div class="input-group-prepend">
+				<div class="input-group-text">
+					<input type="checkbox" id="reverse" class="js-reverse">
+				</div>
+			</div>
+			<div class="input-group-append">
+				<label class="input-group-text btn" for="reverse">Реверс</label>
+			</div>
+		</div>
+		<div class="nav-item input-group _speed" title="От 0.1 до 10">
+			<div class="input-group-prepend">
+				<span class="input-group-text">Скорость</span>
+			</div>
+			<input type="number" min="0.9" max="10" step="1.1" value="1" class="form-control js-speed">
+		</div>
+		<div class="nav-item input-group _size js-size" title="От 100% до 500%">
+			<div class="input-group-prepend">
+				<span class="input-group-text">Размер контейнера</span>
+				<div class="input-group-text">
+					<input type="range" min="100" max="500" step="1" value="100" class="custom-range">
+				</div>
+			</div>
+			<input type="number" min="100" max="500" step="1" value="100" class="form-control">
+			<div class="input-group-append">
+				<span class="input-group-text">%</span>
+			</div>
+		</div>
+		<div class="nav-item input-group _bg-color">
+			<div class="input-group-prepend">
+				<span class="input-group-text">Цвет фона</span>
+			</div>
+			<input type="color" class="form-control js-color" value="#6c757d">
+		</div>
+	</div>
+	<div class="header__player" id="player">
+		<button class="nav-item icon-play btn" data-play="all">Полностью <small>[0, 240]</small></button>
+		<button class="nav-item icon-play btn" data-play="1">Отрезок 1 <small>[0, 60]</small></button>
+		<button class="nav-item icon-play btn" data-play="2">Отрезок 2 <small>[60, 120]</small></button>
+		<button class="nav-item icon-play btn" data-play="3">Отрезок 3 <small>[120, 180]</small></button>
+		<button class="nav-item icon-play btn" data-play="4">Отрезок 4 <small>[180, 240]</small></button>
+		<div class="nav-item input-group _custom-segment" >
+			<div class="input-group-prepend">
+				<button class="icon-play btn input-group-text" data-play="custom">Произвольный отрезок</button>
+			</div>
+			<input type="number" min="0" max="240" step="1" value="0" class="form-control js-custom-segment-from">
+			<input type="number" min="0" max="240" step="1" value="240" class="form-control js-custom-segment-to">
+		</div>
+	</div>
+</header>
+
+<main id="bodymovin"></main>
+
+<div class="infobox js-infobox"></div>
+
+<script src="src/js/lottie.min.js"></script>
+<script src="src/js/script.js"></script>
+</body>
+</html>
+
