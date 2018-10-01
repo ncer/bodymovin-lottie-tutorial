@@ -1,9 +1,9 @@
-* [Введение](README.md)
-* [Подготовительный этап](tutorial/beginning.md)
-* [Этапы работы в After Effects](tutorial/after-effects-beginning.md)
-* [Создание анимаций в After Effects](tutorial/after-effects-animations.md)
-* [Экспорт анимаций с помощью Bodymovin](tutorial/bodymovin-export.md)
-* [Работа с Lottie](tutorial/lottie.md)
+* [Введение](/README.md)
+* [Подготовительный этап](/tutorial/beginning.md)
+* [Этапы работы в After Effects](/tutorial/after-effects-beginning.md)
+* [Создание анимаций в After Effects](/tutorial/after-effects-animations.md)
+* [Экспорт анимаций с помощью Bodymovin](/tutorial/bodymovin-export.md)
+* [Работа с Lottie](/tutorial/lottie.md)
 
 # Bodymovin и Lottie
 
