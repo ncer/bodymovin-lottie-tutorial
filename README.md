@@ -10,8 +10,6 @@
 
 ## Установка
 
-AE можно найти на известном трекере.
-
 [Инструкция по установке Bodymovin](http://airbnb.io/lottie/after-effects/bodymovin-installation.html).
 
 [Инструкция по установке веб-версии Lottie](http://airbnb.io/lottie/web/getting-started.html).
