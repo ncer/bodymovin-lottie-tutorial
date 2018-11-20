@@ -14,5 +14,5 @@
 ---
 
 &larr; [Описание кейса и план работ](/tutorial/1-beginning.md) | 
-[Содержание](/README.md#содержание) | 
+[Содержание](/SUMMARY.md) | 
 [Импорт и настройка композиции в After Effects](/tutorial/3-preparing-aftereffects.md) &rarr;

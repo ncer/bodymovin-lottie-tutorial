@@ -43,5 +43,5 @@
 ---
 
 &larr; [Импорт и настройка композиции в After Effects](/tutorial/3-preparing-aftereffects.md) | 
-[Содержание](/README.md#содержание) | 
+[Содержание](/SUMMARY.md) | 
 [Экспорт анимаций с помощью Bodymovin](/tutorial/5-bodymovin-export.md) &rarr;

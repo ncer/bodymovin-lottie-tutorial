@@ -25,6 +25,6 @@
 ---
 
 &larr; [Введение](/README.md) | 
-[Содержание](/README.md#содержание) | 
+[Содержание](/SUMMARY.md) | 
 [Подготовка в Illustrator](/tutorial/2-preparing-illustrator.md) &rarr;
 

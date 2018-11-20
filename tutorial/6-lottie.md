@@ -90,4 +90,4 @@ animation.setLocationHref(https://example.com)
 ---
 
 &larr; [Экспорт анимаций с помощью Bodymovin](/tutorial/5-bodymovin-export.md) | 
-[Содержание](/README.md#содержание)
+[Содержание](/SUMMARY.md)

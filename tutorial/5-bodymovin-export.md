@@ -23,5 +23,5 @@
 ---
 
 &larr; [Создание анимаций в After Effects](/tutorial/4-aftereffects-animations.md) | 
-[Содержание](/README.md#содержание) | 
+[Содержание](/SUMMARY.md) | 
 [Работа с Lottie](/tutorial/6-lottie.md) &rarr;

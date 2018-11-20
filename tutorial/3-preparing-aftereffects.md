@@ -53,5 +53,5 @@
 ---
 
 &larr; [Подготовка в Illustrator](/tutorial/2-preparing-illustrator.md) | 
-[Содержание](/README.md#содержание) | 
+[Содержание](/SUMMARY.md) | 
 [Создание анимаций в After Effects](/tutorial/4-aftereffects-animations.md) &rarr;
