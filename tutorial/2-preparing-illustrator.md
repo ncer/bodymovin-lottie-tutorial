@@ -9,7 +9,7 @@
 - mask - заполненный овал, контур которого совпадает с последним крупным завитком спирали (будет служить маской)
 - bg - слайд из макета (для корректировки позиционирования элементов)
 
-[![Подготовка в Illustrator](/assets/illustrator.jpg)](/assets/illustrator.jpg)
+[![Подготовка в Illustrator](/assets/illustrator.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/illustrator.jpg)
 
 ---
 

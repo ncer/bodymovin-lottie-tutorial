@@ -4,13 +4,13 @@
 
 ## Окно Bodymovin
 
-[![encoded-expressions](/assets/bm_render.jpg)](/assets/bm_render.jpg)
+[![encoded-expressions](/assets/bm_render.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/bm_render.jpg)
 
 Если список доступных для рендера композиций пуст, нужно обновить его.
 
 ## Окно настроек рендера
 
-[![encoded-expressions](/assets/bm_render-opts.jpg)](/assets/bm_render-opts.jpg)
+[![encoded-expressions](/assets/bm_render-opts.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/bm_render-opts.jpg)
 
 В целом настройки рендера можно не трогать, но я бы все равно отметил пункт Original Asset Names, чтобы сохранить оригинальные названия картинок.
 

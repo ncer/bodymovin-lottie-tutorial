@@ -30,7 +30,7 @@ AE можно найти на известном трекере.
 
 На этапе анимирования и экспорта в json получившийся json может содержать `encoded expressions`, из-за которых ничего не заработает ([issue](https://github.com/airbnb/lottie-web/issues/672)). По этой причине [Animation Composer](https://aescripts.com/animation-composer/) не совместим с Bodymovin (генерирует "плохой" json).
 
-[![encoded-expressions](/assets/encoded-expressions.png)](/assets/encoded-expressions.png)
+[![encoded-expressions](/assets/encoded-expressions.png)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/encoded-expressions.png)
 
 ## Содержание
 

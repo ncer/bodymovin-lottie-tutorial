@@ -6,36 +6,36 @@
 
 Дважды кликнуть по области на вкладке `Проект`, чтобы открыть файловый загрузчик. Выбрать заранее подготовленный svg или ai. В нашем случае это файл `bacteria_blue.ai`.
 
-[![](/assets/ae_01.jpg)](/assets/ae_01.jpg)
+[![](/assets/ae_01.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/ae_01.jpg)
 
 В настройках импорта для опции `Импортировать класс` указать `Композиция`, а для опции `Размеры видеоряда` указать `Размер слоя`.
 
-[![](/assets/ae_02.jpg)](/assets/ae_02.jpg)
+[![](/assets/ae_02.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/ae_02.jpg)
 
 Правой кнопкой мыши кликнуть по композиции и выбрать `Настройки композиции`. 
 
-[![](/assets/ae_03.jpg)](/assets/ae_03.jpg)
+[![](/assets/ae_03.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/ae_03.jpg)
 
 В настройках композиции нужно:
 - *Подогнать размеры холста так, чтобы не было обрезанных элементов.* Это особенно актуально, когда есть элементы с анимацией увеличения. Ориентироваться нужно именно на конечный размер элемента.
 - *Установить круглое значение частоты кадров, например, 60 кадров/с.* Так будет удобнее работать с анимациями на всех этапах.
 - *Установить длительность по формуле `количество секундных отрезков + 1 секунда`.* В нашем случае 4 с + 1 с = 5 с. Это связано с особенностями AE, который "отдает в распоряжение" на 1/60 секунду меньше, чем указано.
  
-[![](/assets/ae_04.jpg)](/assets/ae_04.jpg)
+[![](/assets/ae_04.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/ae_04.jpg)
 
-[![](/assets/ae_05.jpg)](/assets/ae_05.jpg)
+[![](/assets/ae_05.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/ae_05.jpg)
 
 Несмотря на то, что длительность композиции мы сделали равной 5-и секундам, нам нужно ограничить рабочую область 4-мя секундами. При экспорте учитывается длительность именно рабочей области, так что на выходе наша анимация будет равна запланированным 4-м секундам.
 
-[![](/assets/ae_08.jpg)](/assets/ae_08.jpg)
+[![](/assets/ae_08.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/ae_08.jpg)
 
 Дважды кликнуть по композиции, чтобы слои перенеслись на дорожки.
 
-[![](/assets/ae_06.jpg)](/assets/ae_06.jpg)
+[![](/assets/ae_06.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/ae_06.jpg)
 
 Все векторные фигуры обязательно нужно преобразовать в кривые, иначе при экспорте в json они сохраняться как растр. Для этого нужно кликнуть правой кнопкой мыши на нужной дорожке и выбрать `Создать => Создать фигуры из векторного слоя`. В нашем случае это нужно проделать для дорожек `spiral` и `mask`.
 
-[![](/assets/ae_07.jpg)](/assets/ae_07.jpg)
+[![](/assets/ae_07.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/ae_07.jpg)
 
 Управлять видимостью элементов удобнее через длительность дорожки. Это дает элементу четкие границы, когда он должен быть видим. В результате так визуально проще ориентироваться в дорожках, плюс проще накладывать простые анимации (например, фейд) на начало и конец дорожки.
 
@@ -48,7 +48,7 @@
 
 Таким образом, длина дорожек `bacteria_body` и `bacteria_legs` будет составлять отрезки 1-3. А длина дорожек `spiral` и `mask` - отрезки 3-4. Длину дорожки `bg` можно не трогать - она будет выключена по умолчанию и нужна в редких случаях для корректировки положения элементов.
 
-[![](/assets/aea_01.jpg)](/assets/aea_01.jpg)
+[![](/assets/aea_01.jpg)](https://raw.githubusercontent.com/ncer/bodymovin-lottie-tutorial/master/assets/aea_01.jpg)
 
 ---
 
