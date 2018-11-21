@@ -1,4 +1,4 @@
-# Туториал по Bodymovin и Lottie
+# Туториал по созданию анимации с помощью After Effects, Bodymovin и Lottie
 
 *Данный туториал поможет сэкономить время при первом знакомстве с After Effects, Bodymovin и Lottie.*
 
