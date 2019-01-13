@@ -30,6 +30,7 @@ body {
 	padding: 1rem;
 }
 
+.header__title,
 .header__player,
 .header__options {
 	display: flex;
@@ -37,6 +38,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	/*margin-bottom: 1rem;*/
+}
+
+.header__title {
+	color: #fff;
 }
 
 .nav-item {
@@ -114,6 +119,10 @@ body {
 	color: #212529;
 	background-color: var(--light);
 	border: 1rem solid var(--light);
+}
+
+.footer__disclaim {
+	line-height: 1.1;
 }
 
 .github-link {
